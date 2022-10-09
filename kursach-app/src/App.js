@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import HeaderApp from './components/header';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <header className='header'>
+        <HeaderApp/>
       </header>
-      <div>qwe</div>
     </div>
   );
 }
