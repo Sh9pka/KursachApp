@@ -23,6 +23,7 @@
 
 .right-bar {
   display: flex;
+  align-items: center;
   flex-direction: column;
   background-color:crimson;
 }
@@ -60,11 +61,28 @@
 
 .indicators-table__system {
   width: 350px;
-  height: 300px;
+  height: 400px;
   background-color:brown;
 }
 
 .cell {
-  padding: 35px;
+  display: flex;
+  justify-content: center;
+  width: 10px;
+  height: 10px;
+  padding: 30px;
   border: 1px solid rgba(22, 22, 22, 0.4);
+  align-items:center;
+  cursor: grab;
+}
+
+.cell-resistor {
+  color:white;
+  background-color:coral;
+}
+
+.button-start {
+  padding: 10px 25px;
+  background-color:rgb(148, 63, 84);
+  color:white;
 }

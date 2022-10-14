@@ -1,11 +1,11 @@
 import logo from './logo.svg';
+import React, { useEffect, useState } from "react";
 import './App.css';
 import HeaderApp from './components/header/header';
 import FooterApp from './components/footer/footer';
 import SchemeApp from './components/main/workspace/scheme';
-import AppliancesApp from './components/main/workspace/appliances';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <header className="header">
@@ -13,7 +13,6 @@ function App() {
       </header>
       <main className="workspace">
         <SchemeApp/>
-        <AppliancesApp/>
       </main>
       <footer className="footer">
         <FooterApp/>
